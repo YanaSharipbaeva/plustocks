@@ -1,0 +1,125 @@
+@media (max-width: 1000px)  {
+    .header-logo {
+        margin-left: 20px;
+    }
+
+    .sale-item {
+        width: 50%;
+    }
+
+    .header-images:before {
+        width: 100%;
+        right: 0px;
+        top: -20px;
+    }
+
+    .footer-text-wrapper, .brands-wrapper, .sale-items, .header-wrapper, .form-section {
+        width: auto;
+    }
+
+    .brands {
+        height: auto;
+        text-align: center;
+    }
+
+    .main-wrapper {
+        height: auto;
+    }
+
+    .sale-item_text {
+        padding: 5px 15px;
+    }
+
+    .sale {
+        margin-top: 8rem;
+    }
+
+    .sale:before {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        height: 58px;
+        content: "";
+        display: block;
+    }
+}
+
+@media (max-width: 870px)  {
+    .header-logo, .header-images {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+
+    .header-images_item {
+        width: calc(100% / 3);
+         margin-right: -4px;
+    }
+        .header-logo {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 740px)  {
+    .steps-item {
+        width: 100%;
+    }
+
+    .form {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .form-title {
+        padding-top: 80px;
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width: 600px)  {
+    .sale-item {
+        width: 100%;
+    }
+
+    .sale-title {
+        width:100%;
+    }
+}
+
+@media (max-width: 480px)  {
+
+    .form-section_title {
+        width: auto;
+    }
+    .header-logo  {
+        width: 100%;    
+    }
+
+    .form {
+       width: 95%;
+       background-size: contain;
+    }
+}
+
+@media (max-width: 320px)  {
+    .form, .header-logo  {
+        width: 100%;    
+    }
+
+    .header-logo {
+        background-size: contain;
+    }
+
+    .header-wrapper {
+        padding: 0px 15px;
+        box-sizing: border-box;
+    }
+
+}
